@@ -1,89 +1,62 @@
-/*banner*/
-.plomo{
+/*barra gris*/
+.box{
 	width: 100%;
 	height: 50px;
 	display: block;
 	position: relative;
 	background-color: #EBEBEB;
-	
-
 }
-
 .box h1{
 	text-align: center;
 	font-size: 24px;
-	padding-top: 13px;
 }
+/*boton*/
 
-
-.form-control{
-	margin-top: 10px;
-}
-
-.btn-default{
-	margin-top: 10px;
-	border-radius: 10px;
-	padding-left: 30px;
-	margin-left: -17px;
-}
-
-.box-banner::after{
-	content: "";
-	background-image: url(../img/creamy.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	opacity: 0.6;
-	position: absolute;
-	top:0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-}
-
-.box-banner h1{
-	font-family: "Merriweather";
-	font-size: 20px;
-	color:#000;
-	position: relative;
-	
-}
-
-
-.form-group{
-	height: 40px;
-	background: #EBEBEB;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-
-
-
-/*-------------*/
-
-.form-control{
-	border-radius: 0px;
-	width: 100%;
-	height: 100px;
-}
-
-.btn-success {
-  margin-top: 10px;
-  color: #fff;
-  background-color: #AAA8A8;
-  border-color: #AAA8A8s;
-  padding-left:30px;
-  margin-left:-16px;
-  border-radius: 15px;
-}
-
-.fa-cog{
+.fa-plus{
 	position: relative;
 	right: -11px;
 	top: 6px;
+	color: #fff;
 }
+.btn-default {
+	margin-top: 10px;
+	border-radius: 5px;
+	padding-left: 30px;
+	margin-left: -15px;
+	background-color: #4286f4;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.btn-default:hover {
+	margin-top: 10px;
+	border-radius: 5px;
+	padding-left: 30px;
+	margin-left: -15px;
+	background-color: #c2c3c4;
+	color:#fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+/*checkbox*/
+.barra-gris{
+	width: 100%;
+	height: 50px;
+	background-color: #c2c3c4;
+	margin-top: 10px;
 
-
+}
+.box-agregar label{
+	padding-left: 16px;
+	padding-top: 13px;
+}
+.fa-trash{
+	float: right;
+	position: relative;
+	top: -37px;
+	right: 19px;
+	color: #fff;
+	font-size:20px;
+}
 
 

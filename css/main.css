@@ -11,7 +11,6 @@
 	font-size: 24px;
 }
 /*boton*/
-
 .fa-plus{
 	position: relative;
 	right: -11px;
@@ -50,14 +49,16 @@
 	padding-left: 16px;
 	padding-top: 13px;
 }
-/*
-.fa-trash{
-	float: right;
-	position: relative;
-	top: -37px;
-	right: 19px;
-	color: #fff;
-	font-size:20px;
+
+.tachar{
+	text-decoration: line-through;
+
 }
-*/
+/*agregar las clases*/
+.rojo{
+	color: red;
+}
+.crearSpa{
+	display: inline-block;
+}
 

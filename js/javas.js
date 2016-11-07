@@ -2,13 +2,11 @@
 var idLista = 0;
 
 function agregarLista() {
-
-	if(crearInput == null || lastname.length == 0){
+	var entrada = document.getElementById('caja-agregar').value;
+	if(entrada == null || entrada.length == 0){
 		alert("campo obligatorio");
 		return false;
-	}
-	
-	else{
+	}else{
 	//guarda contenido de caja-agregar html
 	var guardarContenido = document.getElementById('caja-agregar').value;
 
@@ -60,7 +58,7 @@ function agregarLista() {
 		crearCorazon.classList.toggle("rojo");
 	});
 
-}
+	}
 }
 
 //funcion basurero borrar

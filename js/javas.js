@@ -2,6 +2,13 @@
 var idLista = 0;
 
 function agregarLista() {
+
+	if(crearInput == null || lastname.length == 0){
+		alert("campo obligatorio");
+		return false;
+	}
+	
+	else{
 	//guarda contenido de caja-agregar html
 	var guardarContenido = document.getElementById('caja-agregar').value;
 
@@ -52,6 +59,8 @@ function agregarLista() {
 	crearA.addEventListener("click", function(){
 		crearCorazon.classList.toggle("rojo");
 	});
+
+}
 }
 
 //funcion basurero borrar
